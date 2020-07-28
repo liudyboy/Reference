@@ -1,0 +1,84 @@
+\_form#0=47x17:$(x,y,r)$
+\_form#1=9x8:$r$
+\_form#2=32x12:$d\pm\epsilon$
+\_form#3=9x15:$ f $
+\_form#4=272x35:\[ f(0) + f'(0) x + \frac{f''(0)}{2} x^2 + \frac{f'''(0)}{3!} x^3 + \cdots \]
+\_form#5=29x17:$ f(x) $
+\_form#6=350x35:\[ f(M) = f(0) + f'(0) M + \frac{f''(0)}{2} M^2 + \frac{f'''(0)}{3!} M^3 + \cdots \]
+\_form#7=48x17:$ \cos(M) $
+\_form#8=57x17:$ \cosh(M) $
+\_form#9=17x12:$ M $
+\_form#10=126x44:\[ \exp(M) = \sum_{k=0}^\infty \frac{M^k}{k!}. \]
+\_form#11=57x15:$ y' = My $
+\_form#12=62x17:$ y(0) = y_0 $
+\_form#13=110x17:$ y(t) = \exp(M) y_0 $
+\_form#14=30x14:$ 20 n^3 $
+\_form#15=11x8:$ n $
+\_form#16=317x56:\[ \exp \left[ \begin{array}{ccc} 0 & \frac14\pi & 0 \\ -\frac14\pi & 0 & 0 \\ 0 & 0 & 0 \end{array} \right] = \left[ \begin{array}{ccc} \frac12\sqrt2 & -\frac12\sqrt2 & 0 \\ \frac12\sqrt2 & \frac12\sqrt2 & 0 \\ 0 & 0 & 1 \end{array} \right]. \]
+\_form#17=18x20:$ \frac14\pi $
+\_form#18=15x12:$ X $
+\_form#19=86x17:$ \exp(X) = M $
+\_form#20=45x17:$ (-\pi,\pi] $
+\_form#21=312x56:\[ \log \left[ \begin{array}{ccc} \frac12\sqrt2 & -\frac12\sqrt2 & 0 \\ \frac12\sqrt2 & \frac12\sqrt2 & 0 \\ 0 & 0 & 1 \end{array} \right] = \left[ \begin{array}{ccc} 0 & \frac14\pi & 0 \\ -\frac14\pi & 0 & 0 \\ 0 & 0 & 0 \end{array} \right]. \]
+\_form#22=23x12:$ M^p $
+\_form#23=92x17:$ \exp(p \log(M)) $
+\_form#24=44x17:$ (-1, 1) $
+\_form#25=12x11:$ T $
+\_form#26=104x38:\[ T = \left[ \begin{array}{cc} T_1 & T_2 \\ 0 & 0 \end{array} \right] \]
+\_form#27=15x14:$ T_1 $
+\_form#28=18x11:$ T^p $
+\_form#29=164x38:\[ T^p = \left[ \begin{array}{cc} T_1^p & T_1^{-1} T_1^p T_2 \\ 0 & 0 \end{array}. \right] \]
+\_form#30=327x62:\[ \left[ \begin{array}{ccc} \cos1 & -\sin1 & 0 \\ \sin1 & \cos1 & 0 \\ 0 & 0 & 1 \end{array} \right]^{\frac14\pi} = \left[ \begin{array}{ccc} \frac12\sqrt2 & -\frac12\sqrt2 & 0 \\ \frac12\sqrt2 & \frac12\sqrt2 & 0 \\ 0 & 0 & 1 \end{array} \right]. \]
+\_form#31=45x20:$ f^{(n)}(x) $
+\_form#32=47x17:$ \sin(M) $
+\_form#33=54x17:$ \sinh(M) $
+\_form#34=35x15:$ M^{1/2} $
+\_form#35=65x15:$ S = M^{1/2} $
+\_form#36=53x14:$ S^2 = M $
+\_form#37=30x14:$ 25 n^3 $
+\_form#38=33x20:$ 3\frac13 n^3 $
+\_form#39=65x20:$ (-\frac12\pi, \frac12\pi] $
+\_form#40=161x38:\[ \left[ \begin{array}{cc} \cos(\frac13\pi) & -\sin(\frac13\pi) \\ \sin(\frac13\pi) & \cos(\frac13\pi) \end{array} \right], \]
+\_form#41=161x38:\[ \left[ \begin{array}{cc} \cos(\frac16\pi) & -\sin(\frac16\pi) \\ \sin(\frac16\pi) & \cos(\frac16\pi) \end{array} \right]. \]
+\_form#42=8x12:$ k $
+\_form#43=12x12:$ A $
+\_form#44=12x12:$ V $
+\_form#45=69x12:$ A V = D V $
+\_form#46=81x12:$ A V = D B V $
+\_form#47=84x14:$ A = V D V^{-1} $
+\_form#48=122x15:$ A^{1/2} = V D^{1/2} V^{-1} $
+\_form#49=80x15:$ V D^{-1/2} V^{-1} $
+\_form#50=165x18:$ CINV = (C * C^T)^{-1} * C $
+\_form#51=111x17:$ 1/2((Ax).x) - bx $
+\_form#52=50x15:$ Cx \le f $
+\_form#53=23x11:$ 2^{-s} $
+\_form#54=122x18:$ (V+U)(V-U)^{-1} $
+\_form#55=47x17:$ \exp(A) $
+\_form#56=41x12:$ A = 0 $
+\_form#57=6x8:$ s $
+\_form#58=32x11:$ 2^{-s} x $
+\_form#59=129x21:$ \exp(2^{-\mbox{squarings}}M) $
+\_form#60=44x12:$ M = 0 $
+\_form#61=209x47:\[ \sum_{k=i}^m A_{ik} X_{kj} + \sum_{k=1}^j X_{ik} B_{kj} = C_{ij}. \]
+\_form#62=347x48:\[ X_{ij} = \frac{1}{A_{ii} + B_{jj}} \Bigl( C_{ij} - \sum_{k=i+1}^m A_{ik} X_{kj} - \sum_{k=1}^{j-1} X_{ik} B_{kj} \Bigr). \]
+\_form#63=80x14:$ i=m,\ldots,1 $
+\_form#64=78x14:$ j=1,\ldots,n $
+\_form#65=18x12:$ A^p $
+\_form#66=87x17:$ \exp(p \log(A)) $
+\_form#67=48x15:$ 1 + 3x^2 $
+\_form#68=44x17:$ [ 1, 0, 3 ] $
+\_form#69=44x17:$ |x| \le 1 $
+\_form#70=41x15:$ 3 + x^2 $
+\_form#71=44x17:$ [ 3, 0, 1 ] $
+\_form#72=137x44:\begin{align*} C(u) & = \sum_{i=0}^{n}N_{i,p}(u)P_i \end{align*}
+\_form#73=11x8:$u$
+\_form#74=117x44:\begin{align*} C(u) & = \sum_{i=0}^{n}N_{i,p}P_i \end{align*}
+\_form#75=57x17:$u \in [0;1]$
+\_form#76=186x44:\begin{align*} \frac{d^i}{du^i}C(u) & = \sum_{i=0}^{n} \frac{d^i}{du^i} N_{i,p}(u)P_i \end{align*}
+\_form#77=35x14:$p+1$
+\_form#78=14x15:$P_i$
+\_form#79=9x11:$p$
+\_form#80=158x17:\begin{align*} N_{i,p}(u), \hdots, N_{i+p+1,p}(u) \end{align*}
+\_form#81=206x35:\begin{align*} \frac{d^i}{du^i} N_{i,p}(u), \hdots, \frac{d^i}{du^i} N_{i+p+1,p}(u) \end{align*}
+\_form#82=254x92:\begin{align*} u_0 & = \hdots = u_p = 0 \\ u_{m-p} & = \hdots = u_{m} = 1 \\ u_{j+p} & = \frac{1}{p}\sum_{i=j}^{j+p-1}\bar{u}_i \quad\quad j=1,\hdots,n-p \end{align*}
+\_form#83=39x12:$m+1$

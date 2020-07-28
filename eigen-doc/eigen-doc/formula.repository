@@ -1,0 +1,239 @@
+\_form#0=48x14:$A^T*A$
+\_form#1=12x12:$ A $
+\_form#2=105x14:$ A = P^TLDL^*P $
+\_form#3=48x12:$ A x = b $
+\_form#4=105x14:$ A = P^T L D L^* P $
+\_form#5=62x17:$ P^T y_1 = b $
+\_form#6=57x15:$ L y_2 = y_1 $
+\_form#7=60x15:$ D y_3 = y_2 $
+\_form#8=65x15:$ L^* y_4 = y_3 $
+\_form#9=54x15:$ P x = y_4 $
+\_form#10=12x12:$ D $
+\_form#11=14x12:$ \ell^p $
+\_form#12=20x12:$ \ell^\infty $
+\_form#13=15x8:$\infty$
+\_form#14=9x8:$ v $
+\_form#15=12x8:$ w $
+\_form#16=9x11:$ p $
+\_form#17=180x17:\[ \Vert v - w \Vert \leqslant p\,\min(\Vert v\Vert, \Vert w\Vert). \]
+\_form#18=9x8:$ x $
+\_form#19=72x17:\[ \Vert v \Vert \leqslant p\,\vert x\vert. \]
+\_form#20=81x17:\[ \Vert v \Vert \leqslant p\,\Vert w\Vert. \]
+\_form#21=9x8:$ \sigma $
+\_form#22=17x15:$ P_\sigma $
+\_form#23=71x17:$ (e_1,\ldots,e_p) $
+\_form#24=93x18:\[ P_\sigma(e_i) = e_{\sigma(i)}. \]
+\_form#25=23x11:$ \sigma, \tau $
+\_form#26=89x15:\[ P_{\sigma\circ\tau} = P_\sigma P_\tau. \]
+\_form#27=23x17:$(ij)$
+\_form#28=216x17:$ this = this + \alpha u v^* + conj(\alpha) v u^* $
+\_form#29=137x17:$ this = this + \alpha ( u u^* ) $
+\_form#30=137x17:$ this = this + \alpha ( u^* u ) $
+\_form#31=51x21:$ s \Vert \frac{*this}{s} \Vert $
+\_form#32=113x17:$[T_{n-1} \ldots T_{i} \ldots T_{0}]$
+\_form#33=14x14:$ T_{i} $
+\_form#34=32x15:$ T_{i} M$
+\_form#35=29x15:$ M T_{i}$
+\_form#36=71x12:$ Ax = \lambda B x $
+\_form#37=71x12:$ ABx = \lambda x $
+\_form#38=69x12:$ BAx = \lambda x $
+\_form#39=9x12:$ \lambda $
+\_form#40=57x12:$ Av = \lambda v $
+\_form#41=12x12:$ V $
+\_form#42=69x12:$ A V = V D $
+\_form#43=84x14:$ A = V D V^{-1} $
+\_form#44=8x12:$ k $
+\_form#45=38x18:$ O(n^3) $
+\_form#46=11x8:$ n $
+\_form#47=74x12:$ A = U T U^*$
+\_form#48=30x14:$25n^3$
+\_form#49=30x14:$10n^3$
+\_form#50=53x38:\[ \begin{bmatrix} u & v \\ -v & u \end{bmatrix} \]
+\_form#51=11x8:$ u $
+\_form#52=41x11:$ u \pm iv $
+\_form#53=69x12:$ AV = VD $
+\_form#54=53x38:$ \begin{bmatrix} u & v \\ -v & u \end{bmatrix} $
+\_form#55=30x14:$ 25n^3 $
+\_form#56=30x14:$ 10n^3 $
+\_form#57=12x12:$ B $
+\_form#58=69x12:$ Av = \lambda Bv $
+\_form#59=81x12:$ A V = B V D $
+\_form#60=96x14:$ A = B V D V^{-1} $
+\_form#61=9x8:$ \alpha $
+\_form#62=11x15:$ \beta $
+\_form#63=68x17:$ \lambda_i = \alpha_i / \beta_i $
+\_form#64=14x15:$ \beta_i $
+\_form#65=65x17:$ \mu = \beta_i / \alpha_i$
+\_form#66=83x15:$ \mu_i A v_i = B v_i $
+\_form#67=95x18:$ \mu_i u_i^T A = u_i^T B $
+\_form#68=14x11:$ u_i $
+\_form#69=65x12:$ x^* B x = 1 $
+\_form#70=59x12:$ B = LL^* $
+\_form#71=81x18:$ L^{-1} A (L^*)^{-1} $
+\_form#72=38x12:$ L^{*} A L $
+\_form#73=185x18:$ L^{-1} A (L^*)^{-1} (L^* x) = \lambda (L^* x) $
+\_form#74=12x15:$ Q $
+\_form#75=14x12:$ H $
+\_form#76=78x17:$ A = Q H Q^T $
+\_form#77=69x17:$ Q^{-1} = Q^T $
+\_form#78=75x15:$ A = Q H Q^* $
+\_form#79=65x17:$ Q^{-1} = Q^* $
+\_form#80=45x18:$ 10n^3/3 $
+\_form#81=131x15:$ Q = H_{N-1} \ldots H_1 H_0 $
+\_form#82=17x15:$ H_i $
+\_form#83=117x18:$ H_i = (I - h_i v_i v_i^T) $
+\_form#84=12x15:$ h_i $
+\_form#85=6x11:$ i $
+\_form#86=12x11:$ v_i $
+\_form#87=302x18:$ v_i = [ 0, \ldots, 0, 1, M(i+2,i), \ldots, M(N-1,i) ]^T $
+\_form#88=126x38:\[ \|A\|_2 = \max_x \frac{\|Ax\|_2}{\|x\|_2} \]
+\_form#89=30x12:$ A^*A $
+\_form#90=66x15:$ A = Q S Z $
+\_form#91=66x15:$ B = Q T Z $
+\_form#92=69x14:$ U^{-1} = U^T $
+\_form#93=51x12:$ A - z B $
+\_form#94=77x14:$ A = U T U^T $
+\_form#95=24x14:$ 9n^3 $
+\_form#96=39x18:$ 4n^3/3 $
+\_form#97=122x15:$ A^{1/2} = V D^{1/2} V^{-1} $
+\_form#98=80x15:$ V D^{-1/2} V^{-1} $
+\_form#99=74x15:$ A = Q T Q^* $
+\_form#100=12x11:$ T $
+\_form#101=89x15:$ mat = Q T Q^* $
+\_form#102=83x14:$ n \cdot x + d = 0 $
+\_form#103=8x12:$ d $
+\_form#104=224x14:$ c_0*x_0 + ... + c_{d-1}*x_{d-1} + c_d = 0 $
+\_form#105=369x17:$ (\mathbf{a}+i\mathbf{b}) \times (\mathbf{c}+i\mathbf{d}) = (\mathbf{a} \times \mathbf{c} - \mathbf{b} \times \mathbf{d}) - i(\mathbf{a} \times \mathbf{d} - \mathbf{b} \times \mathbf{c})$
+\_form#106=11x8:$ \mathbf{o} $
+\_form#107=11x12:$ \mathbf{d} $
+\_form#108=83x17:$ l(t) = \mathbf{o} + t \mathbf{d} $
+\_form#109=39x14:$ t \in \mathbf{R} $
+\_form#110=111x15:$ w+xi+yj+zk $
+\_form#111=165x38:$ \left( \begin{array}{cc} linear & translation\\ 0 ... 0 & 1 \end{array} \right) $
+\_form#112=87x38:$ \left( \begin{array}{cc} I & t \\ 0\,...\,0 & 1 \end{array} \right) $
+\_form#113=87x38:$ \left( \begin{array}{cc} R & 0\\ 0\,...\,0 & 1 \end{array} \right) $
+\_form#114=87x38:$ \left( \begin{array}{cc} S & 0\\ 0\,...\,0 & 1 \end{array} \right) $
+\_form#115=41x38:$ \left( \begin{array}{c} v\\ 1 \end{array} \right) $
+\_form#116=105x38:$ \left( \begin{array}{ccc} v_1 & ... & v_n\\ 1 & ... & 1 \end{array} \right) $
+\_form#117=30x15:$ c, \mathbf{R}, $
+\_form#118=8x11:$ \mathbf{t} $
+\_form#119=161x42:\begin{align*} \frac{1}{n} \sum_{i=1}^n \vert\vert y_i - (c\mathbf{R}x_i + \mathbf{t}) \vert\vert_2^2 \end{align*}
+\_form#120=77x18:$ \Sigma_{\mathbf{x}\mathbf{y}} \in \mathbb{R}^{d \times d} $
+\_form#121=11x8:$ \mathbf{x} $
+\_form#122=11x11:$ \mathbf{y} $
+\_form#123=8x12:$d$
+\_form#124=38x18:$O(d^3)$
+\_form#125=44x17:$O(dm)$
+\_form#126=39x12:$d \times m$
+\_form#127=107x17:$ \mathbf{x} = \left( x_1, \hdots, x_n \right) $
+\_form#128=104x17:$ \mathbf{y} = \left( y_1, \hdots, y_n \right) $
+\_form#129=33x11:$ c=1 $
+\_form#130=86x38:\begin{align*} T = \begin{bmatrix} c\mathbf{R} & \mathbf{t} \\ \mathbf{0} & 1 \end{bmatrix} \end{align*}
+\_form#131=146x18:$ H *this = [ beta 0 ... 0]^T $
+\_form#132=102x12:$ H = I - tau v v^*$
+\_form#133=123x18:$ v^T = [1 essential^T] $
+\_form#134=38x9:$ n \times n $
+\_form#135=90x20:$ H = \prod_{i=0}^{n-1} H_i $
+\_form#136=102x17:$ H_i = I - h_i v_i v_i^* $
+\_form#137=255x42:\[ v_i = [\underbrace{0, \ldots, 0}_{i-1\mbox{ zeros}}, 1, \underbrace{*, \ldots,*}_{n-i\mbox{ arbitrary entries}} ]. \]
+\_form#138=33x11:$ n-i $
+\_form#139=30x12:$ MH $
+\_form#140=17x12:$ M $
+\_form#141=30x12:$ HM $
+\_form#142=129x15:$ H = H_0 H_1 \ldots H_{n-1} $
+\_form#143=179x17:$ H = H_{\mathrm{shift}} H_{\mathrm{shift}+1} \ldots H_{n-1} $
+\_form#144=147x18:$ H^T = H_{n-1}^T \ldots H_1^T H_0^T $
+\_form#145=104x12:$ S P A P' S \approx L L' $
+\_form#146=90x12:$ B = S P A P' S $
+\_form#147=38x15:$ \beta > 0 $
+\_form#148=89x17:$ B + (\sigma+|\beta| I $
+\_form#149=59x14:$ \sigma = 10^{-3} $
+\_form#150=8x12:$ \theta $
+\_form#151=105x38:$ J = \left ( \begin{array}{cc} c & \overline s \\ -s & \overline c \end{array} \right ) $
+\_form#152=53x12:$ v = J^* v $
+\_form#153=98x38:$ B = \left ( \begin{array}{cc} x & y \\ \overline y & z \end{array} \right )$
+\_form#154=71x12:$ A = J^* B J $
+\_form#155=174x38:$ B = \left ( \begin{array}{cc} \text{this}_{pp} & \text{this}_{pq} \\ (\text{this}_{pq})^* & \text{this}_{qq} \end{array} \right )$
+\_form#156=17x12:$ G^* $
+\_form#157=74x38:$ V = \left ( \begin{array}{c} p \\ q \end{array} \right )$
+\_form#158=92x38:$ G^* V = \left ( \begin{array}{c} r \\ 0 \end{array} \right )$
+\_form#159=144x38:$ B = \left ( \begin{array}{cc} \text{*this.row}(p) \\ \text{*this.row}(q) \end{array} \right ) $
+\_form#160=219x20:$ B = \left ( \begin{array}{cc} \text{*this.col}(p) & \text{*this.col}(q) \end{array} \right ) $
+\_form#161=119x38:$ \left ( \begin{array}{cc} x \\ y \end{array} \right ) = J \left ( \begin{array}{cc} x \\ y \end{array} \right ) $
+\_form#162=110x17:$ A = P^{-1} L U Q^{-1} $
+\_form#163=77x17:$ P^{-1} L U Q^{-1} $
+\_form#164=213x17:$ \vert pivot \vert \leqslant threshold \times \vert maxpivot \vert $
+\_form#165=77x15:\[ \mathbf{A} \, \mathbf{P} = \mathbf{Q} \, \mathbf{R} \]
+\_form#166=132x38:\[ \mathbf{A} \, \mathbf{P} = \mathbf{Q} \, \begin{bmatrix} \mathbf{T} & \mathbf{0} \\ \mathbf{0} & \mathbf{0} \end{bmatrix} \, \mathbf{Z} \]
+\_form#167=134x17:\[\mathrm{minimize} \|A X - B\|, \]
+\_form#168=54x12:$ \mathbf{Z}^* * \mathbf{rhs} $
+\_form#169=95x17:\[ \mathbf{P} \, \mathbf{A} \, \mathbf{P}' = \mathbf{Q} \, \mathbf{R} \]
+\_form#170=63x15:\[ \mathbf{A} = \mathbf{Q} \, \mathbf{R} \]
+\_form#171=15x15:$ P_r $
+\_form#172=90x18:$P_r A P_c^T = L U$
+\_form#173=20x18:$ P_c^T $
+\_form#174=59x12:$ A X = B $
+\_form#175=72x12:\[ A = U S V^* \]
+\_form#176=45x18:$ O(n^2p) $
+\_form#177=333x17:$ \vert singular value \vert \leqslant threshold \times \vert max singular value \vert $
+\_form#178=59x17:$ \Vert A x - b \Vert $
+\_form#179=27x17:$ x^Ty $
+\_form#180=20x17:$ |a_i| $
+\_form#181=27x17:$ 1/a_i $
+\_form#182=12x14:$ \bar{a_i} $
+\_form#183=6x8:$ e $
+\_form#184=17x11:$ e^{a_i} $
+\_form#185=38x17:$ \ln({a_i}) $
+\_form#186=63x17:$ \ln({1+a_i}) $
+\_form#187=57x17:$ \log_{10}({a_i}) $
+\_form#188=17x20:$ a_i ^ {b_i} $
+\_form#189=24x17:$ \sqrt a_i $
+\_form#190=39x17:$ 1/{\sqrt a_i} $
+\_form#191=14x18:$ a_i^2 $
+\_form#192=14x18:$ a_i^3 $
+\_form#193=27x18:$ |a_i|^2 $
+\_form#194=50x18:$ \sin^{-1} a_i $
+\_form#195=53x17:$ \cos^{-1} a_i $
+\_form#196=54x17:$ \tan^{-1} a_i $
+\_form#197=186x21:$ \gamma(a_i,x_i)= \frac{1}{|a_i|} \int_{0}^{x_i}e^{\text{-}t} t^{a_i-1} \mathrm{d} t $
+\_form#198=188x21:$ \Gamma(a_i,x_i) = \frac{1}{|a_i|} \int_{x_i}^{\infty}e^{\text{-}t} t^{a_i-1} \mathrm{d} t $
+\_form#199=173x18:$ \zeta(a_i,b_i)=\sum_{k=0}^{\infty}(b_i+k)^{\text{-}a_i} $
+\_form#200=86x74:\[ \begin{bmatrix} 1 & 8 & 4 & 2 \\ 2 & 1 & 8 & 4 \\ 4 & 2 & 1 & 8 \\ 8 & 4 & 2 & 1 \end{bmatrix} \]
+\_form#201=33x14:$ A^T A $
+\_form#202=207x17:$ C.noalias() += \alpha op1(A) op2(B) $
+\_form#203=92x20:$ M_2 := L_1^{-1} M_2 $
+\_form#204=99x20:$ M_3 := {L_1^*}^{-1} M_3 $
+\_form#205=93x20:$ M_4 := M_4 U_1^{-1} $
+\_form#206=161x17:$ upper(M_1) \mathrel{{+}{=}} s_1 M_2 M_2^* $
+\_form#207=143x17:$ lower(M_1) \mathbin{{-}{=}} M_2^* M_2 $
+\_form#208=125x14:$ M \mathrel{{+}{=}} s u v^* + s v u^* $
+\_form#209=98x20:$ M_2 := M_1^{-1} M_2 $
+\_form#210=62x56:\[ v = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}. \]
+\_form#211=132x56:\[ A = \begin{bmatrix} 8 & 2 & 2 & 9 \\ 9 & 1 & 4 & 4 \\ 3 & 5 & 4 & 5 \end{bmatrix}. \]
+\_form#212=18x12:$ A^* $
+\_form#213=63x14:$ v^* A v > 0 $
+\_form#214=63x14:$ v^* A v < 0 $
+\_form#215=63x15:$ v^* A v \ge 0 $
+\_form#216=63x15:$ v^* A v \le 0 $
+\_form#217=68x20:$ J = \bigl[ \begin{smallmatrix} O & I \\ I & O \end{smallmatrix} \bigr] $
+\_form#218=30x20:$ \bigl[ \begin{smallmatrix} 0 & 1 \\ 1 & 0 \end{smallmatrix} \bigr] $
+\_form#219=66x14:$ \mathbf{p} \equiv \mathbf{p}-0 $
+\_form#220=54x12:\[ Ax \: = \: b \]
+\_form#221=17x14:$ a^T $
+\_form#222=8x11:$ \bar{a} $
+\_form#223=14x12:$ a^* $
+\_form#224=8x8:$ a $
+\_form#225=14x14:$\ell^2$
+\_form#226=14x12:$\ell^p$
+\_form#227=20x12:$\ell^\infty$
+\_form#228=120x38:\[ \mbox{m} = \begin{bmatrix} 1 & 2 & 6 & 9 \\ 3 & 1 & 7 & 2 \end{bmatrix} \]
+\_form#229=237x20:\[ \mbox{m.colwise().sum()} = \begin{bmatrix} 4 & 3 & 13 & 11 \end{bmatrix} \]
+\_form#230=314x38:\[ \begin{bmatrix} 1 & 2 & 6 & 9 \\ 3 & 1 & 7 & 2 \end{bmatrix} + \begin{bmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 1 & 1 \end{bmatrix} = \begin{bmatrix} 1 & 2 & 6 & 9 \\ 4 & 2 & 8 & 3 \end{bmatrix}. \]
+\_form#231=236x38:\[ \mbox{m.colwise() - v} = \begin{bmatrix} -1 & 21 & 4 & 7 \\ 0 & 8 & 4 & -1 \end{bmatrix} \]
+\_form#232=408x20:\[ \mbox{(m.colwise() - v).colwise().squaredNorm()} = \begin{bmatrix} 1 & 505 & 32 & 50 \end{bmatrix} \]
+\_form#233=48x12:$ \Delta u = 0 $
+\_form#234=48x12:$ Ax=b $
+\_form#235=6x12:$ b $
+\_form#236=47x9:$ m \times m $
+\_form#237=51x15:$ A^T + A $
+\_form#238=21x14:$ A^T $
